@@ -1,0 +1,80 @@
+:root {
+  --banner-height: 270px;
+  --img-width: 200px;
+  --img-height: 225px;
+}
+
+* {
+  background-color: azure;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.picture {
+  width: var(--img-width);
+  height: var(--img-height);
+  margin: 10px auto;
+  border: 5px solid black;
+  display: block;
+  top: 0%;
+  z-index: 3;
+}
+
+img {
+  width: var(--img-width);
+  height: var(--img-height);
+}
+
+nav {
+  text-align: right;
+  line-height: 0%;
+  background-color: lightblue;
+}
+
+#personal-info,
+h1,
+h2,
+h3,
+footer {
+  text-align: center;
+}
+
+.display-inline {
+  display: inline;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  width: 100%;
+  height: var(--banner-height);
+  border-bottom: 10px solid darkcyan;
+  background-color: lightblue;
+  text-align: right;
+  margin-right: 10px;
+}
+
+.banner {
+  height: var(--banner-height);
+  width: 100%;
+  margin-bottom: 25px;
+  background-size: cover;
+  background-color: lightblue;
+  background-position: center;
+}
+
+
+#prior-education,
+#professional-experience,
+#projects,
+#contact-me {
+  color: darkblue;
+}
+
+.title-date {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
